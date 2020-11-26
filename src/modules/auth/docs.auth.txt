@@ -1,0 +1,3 @@
+This folder is if you wanna do page to register/login/recover password...
+
+Don't is necessary for the development and build.
