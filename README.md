@@ -20,5 +20,12 @@ Before you report a bug, please take your time to find if an issue hasn't been r
 
 We're also open to pull requests
 
+## How to deploy in your github?
+- Change your file `package.json` for:
+  `"homepage": "https://yourUserName.github.io/yourProjectName/",`
+- run `yarn deploy`
+- Configure your GitHub Pages site currently branch to: `gh-pages`
+- Happy hack! ;)
+
 ## Something Missing?
 If you still have some questions do not hesitate to ask us. Open an issue or [visit our Slack](https://mdbbetatest.slack.com)
