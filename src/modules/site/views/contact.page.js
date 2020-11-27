@@ -14,6 +14,7 @@ import CircularProgress from '@material-ui/core/CircularProgress'
 import { makeStyles } from '@material-ui/core/styles'
 import emailjs from 'emailjs-com'
 import Notification from "../../shared/components/notifications"
+import Title from "../../shared/components/title.component"
 
 const keys = {
     service: process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -95,6 +96,7 @@ const ContactPage = () => {
     }
     return (
         <>
+            <Title title="Contato" description="Entre em contato comigo e agende já uma consultoria para fecharmos vários projetos! ;)" />
             {enableAlert && <Notification notifications={notifications} />}
             <MDBEdgeHeader color="mdb-color darken-2" className="sectionPage" />
             <MDBAnimation type="zoomIn" duration="500ms">

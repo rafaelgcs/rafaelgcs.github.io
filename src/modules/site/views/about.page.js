@@ -7,10 +7,12 @@ import {
     MDBJumbotron,
     MDBAnimation
 } from "mdbreact"
+import Title from "../../shared/components/title.component"
 
 const AboutPage = () => {
     return (
         <>
+            <Title title="Sobre Mim" description="Descubra, aqui, o que não tem no restante do site... Quem sou eu :D" />
             <MDBEdgeHeader color="mdb-color darken-2" className="sectionPage" />
             <MDBAnimation type="zoomIn" duration="500ms">
                 <MDBContainer>
@@ -20,7 +22,7 @@ const AboutPage = () => {
                                 <h1 className="text-center">
                                     Sobre Mim
                                  </h1>
-                                <p style={{marginTop:'3rem'}}>Graduando em Ciência e Tecnologia pela UFBA, Técnico em Desenvolvimento de Sistemas pelo Centro Universitário SENAI CIMATEC (2019), Técnico em design gráfico pela SAGA (2018). Presidente da EJC&T - Empresa Júnior de Ciência e Tecnologia da UFBA, Estagiário no SENAI CIMATEC atuando na área de desenvolvimento de softwares.</p>
+                                <p style={{ marginTop: '3rem' }}>Graduando em Ciência e Tecnologia pela UFBA, Técnico em Desenvolvimento de Sistemas pelo Centro Universitário SENAI CIMATEC (2019), Técnico em design gráfico pela SAGA (2018). Presidente da EJC&T - Empresa Júnior de Ciência e Tecnologia da UFBA, Estagiário no SENAI CIMATEC atuando na área de desenvolvimento de softwares.</p>
                             </MDBJumbotron>
                         </MDBCol>
                     </MDBRow>

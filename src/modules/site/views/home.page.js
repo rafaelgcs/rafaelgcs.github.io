@@ -20,6 +20,7 @@ import "../styles/home_page.css"
 import cssCardPhoto from '../../../assets/img/homeCards/view-css3.png'
 import html5CardPhoto from '../../../assets/img/homeCards/view-html.png'
 import jsCardPhoto from '../../../assets/img/homeCards/view-js.png'
+import Title from "../../shared/components/title.component"
 
 
 const HomePage = () => {
@@ -32,6 +33,7 @@ const HomePage = () => {
 
   return (
     <>
+      <Title title="Página Inicial" />
       <MDBEdgeHeader color="mdb-color darken-2" className="sectionPage" />
       <MDBAnimation type="zoomIn" duration="500ms">
         <div className="mt-3 mb-5">

@@ -15,6 +15,7 @@ import {
 } from "mdbreact"
 
 import { images } from '../../../helpers/images'
+import Title from "../../shared/components/title.component"
 
 const GalleryPage = () => {
     useEffect(() => {
@@ -23,6 +24,7 @@ const GalleryPage = () => {
 
     return (
         <>
+            <Title title="Portifólio" description="Conheça alguns dos projetos que participei!" />
             <MDBEdgeHeader color="mdb-color darken-2" className="sectionPage" />
             <MDBAnimation type="zoomIn" duration="500ms">
                 <MDBContainer>
